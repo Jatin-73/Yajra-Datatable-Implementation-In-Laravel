@@ -1,0 +1,800 @@
+@media(max-width:767px){
+/*bone-dry-locations css starts*/
+    .Location-banner-content .section-title {
+        font-size: 22px;
+        margin-bottom: 22px;
+    }
+    .service-areas-location {
+        margin-top: 260px;
+    }
+    .section-title {
+        margin-bottom: 30px;
+    }
+    .area-location-content {
+        padding: 30px 30px;
+    }
+    .Location-banner-content {
+        top: 30px;
+    }
+    .Location-banner-content .small-box-title {
+        height: 50%;
+    }
+    .Location-banner-content .small-box-learn {
+        bottom: 2px;
+    }
+/*bone-dry-locations css ends*/
+/*bone-dry-locations-2 css ends*/
+    .Location-box-content .small-box-learn {
+        bottom: 2px;
+    }
+    .second-page-loacation {
+        padding-top: 35px;
+        margin-top: 0;
+    }
+/*bone-dry-locations-2 css ends*/
+/*job-opportunities css starts*/
+    p.section-par {
+        width: 90%;
+    }
+/*job-opportunities css ends*/
+    .small-banner .blog-banner-img:before {
+        background-color: rgba(0, 0, 0, 0.6);
+    }
+    .small-banner .masonry-banner-content{
+        align-items: center;
+    }
+    .small-banner .masonry-banner-content h1{
+        margin-bottom: 35px !important;
+    }
+    .testimonials{
+        padding-bottom: 25px;
+    }
+    .all-featured-blog-box{
+        margin-top: 30px;
+    } 
+
+    .main-contact-form .form-group:nth-child(1), .main-contact-form .form-group:nth-child(3) {
+        width: 100%;
+        float: none;
+    }
+    .main-contact-form .form-group:nth-child(2), .main-contact-form .form-group:nth-child(4) {
+        width: 100%;
+        float: none;
+    }
+    .main-contact-form{
+        margin-bottom: 30px;
+    }
+    .main-contact-form .section-title {
+        text-align: center;
+    }
+
+    /*blog-individual page css starts*/
+    .side-social-link {
+        padding-top: 25px;
+        border-top: 1px solid #e7d2a1;
+        padding-bottom: 0;
+    border-bottom: none;
+    }
+
+    /*insurance page css starts*/
+    .ins-page-content {
+        padding: 60px 0 100px;
+    }
+    .ins-claims-box h3 {
+        margin: 10px 0px;
+    }
+
+    .img-text-part .individual-project p {
+        margin-bottom: 5px;
+    }
+    .customer-story-content .side-social-link {
+        margin-bottom: 0;
+        padding-bottom: 0;
+        border-top: none;
+    }
+
+    .individual-pic img{
+        margin: 0 auto;
+    }
+    .individual-info {
+        margin-top: 15px;
+        margin-left: 0;
+        text-align: center;
+    }
+    .team-individual-about {
+        padding: 35px 0 40px;
+    }
+    .team-individual-sidebar .individual-side-box:last-child{
+        margin-bottom: 0;
+        padding-bottom: 0;
+        border-bottom: none;
+    }
+    .team-individual-sidebar{
+        margin-top: 40px;
+    }
+    .ind-project-info h3 {
+        margin-top: 10px;
+    }
+
+    p.section-par {
+        width: 100%;
+    }
+    .chamber-info{
+        margin: 25px 0 35px;
+    }
+
+    #slide-partners .owl-nav{
+        display: none;
+    }
+    .our-team-sidebar:after {
+        content: '';
+        position: absolute;
+        width: 150%;
+        height: 100%;
+        top: 0;
+        right: -149%;
+        background-color: #f9f9f9;
+    }
+}
+@media(max-width:991px){
+    .btn-red{
+        padding: 12px 20px;
+    }
+    /*header css starts*/
+    .header-main{
+        position: inherit;
+        padding: 0;
+    }
+    header .outer-container{
+        padding: 15px;
+    }
+    .outer-container{
+        padding: 0 15px;
+    }
+    .header-top{
+        display: none;
+    }
+    .logo-mobile{
+        display: inline-block;
+        vertical-align: middle;
+        margin-left: 20px;
+    }
+    .header-mobile-link{
+        float: right;
+    }
+    header .dropdown-menu{
+        box-shadow: inherit;
+    }
+    /*header css ends*/
+
+    /*banner css starts*/
+    .banner-image img{
+        min-height: 500px;
+        
+        max-width: inherit;
+        width: inherit;
+        HEIGHT: 500PX;
+    }
+    .banner-image img{
+        min-height: 500px;
+        
+        max-width: inherit;
+        width: inherit;
+        HEIGHT: 500PX;
+    }
+    .banner-arrow{
+        display: none;
+    }
+    .banner .banner-text h1{
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .banner-text{
+        padding: 0;
+        text-align: center;
+    }
+  
+    .banner .banner-curve svg{
+        margin-bottom: -8px;
+    }
+    
+    /*banner css ends*/
+
+
+    /*menu css starts*/
+    .main-navigation .navbar-nav.ml-auto>li{
+        margin-left: 0;
+    }
+    .main-navigation .navbar-light .navbar-nav .nav-link{
+        font-size: 13px;
+    }
+    .main-navigation .navbar{
+        margin: 0;
+        width: 100%;
+    }
+    /*menu css ends*/
+
+    /*service css starts*/
+    .service-big{
+        background-color: #fff;
+        -webkit-box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.3);
+        -moz-box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.3);
+        box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.3);
+        margin-bottom: 25px;
+    }
+    .service-big-text{ position: static; padding: 22px 15px; }
+    .service-big-img{ max-height: 90px; overflow: hidden;}
+    .service-big-text p{
+        font-size: 14px;
+    line-height: 24px;
+    color: #231f20;
+    margin-bottom: 0px;
+    text-align: left;
+    opacity: 0.7;
+    margin-bottom: 15px;
+    }
+    .service-big-text h2{
+        margin-top: 0;
+        position: absolute;
+        top: 0;
+        text-align: center;
+        width: 100%;
+        left: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 90px;
+        z-index: 1;
+    }
+    .services-bottom{
+        margin-top: 0;
+    }
+    .service-small-box{
+        margin-bottom: 25px;
+        height: auto;
+    }
+    .service-small-box img{
+        width: 100%;
+    } 
+    .three-type-damage-box .service-small-box h2 {
+        margin-bottom: 20px;
+        font-size: 18px;
+    }
+    .Location-banner-content .service-small-box .small-box-title-bg {
+        height: 90px;
+    }
+    .Location-box-content .service-small-box .small-box-title-bg {
+        height: 90px;
+    }
+    .service-small-box .small-box-content img{
+        width: auto;
+    }
+    .small-indy-service-box{
+        height: 225px;
+        overflow: hidden;
+    }
+    .small-indy-service-box .small-box-button{
+        bottom: 10px;
+    }
+    .small-box-button{
+        position: inherit;
+        background: none;
+        transform: inherit;
+        padding:0 0 15px 0;
+    }
+    /*service css ends*/
+    .all-the-comforts{
+        margin-top: 30px;
+    }
+    .home-solution-content{
+        padding-left: 0; 
+        padding: 30px 0;
+    }
+    .testimonials{
+        padding-top: 50px;
+    }
+    .slider_tabs .owl-carousel .owl-nav {
+        display: none;
+    }
+    .slider_tabs .owl-carousel .owl-item.active .card-custom {
+        width: calc(100% - 35px);
+    }
+    .slider_tabs .owl-carousel .owl-item.active + .owl-item {
+        left: -35px;
+    }
+    .comforts-part{
+        padding: 25px 15px;
+    }
+    .about-bone-dry{
+        margin-bottom: 25px;
+    }
+    .Estimate-form{
+        padding: 25px 15px;
+    }
+    .about-bone-dry{
+        text-align: center;
+        margin-bottom: 0;
+        padding: 25px
+    }
+
+    /*footer css starts*/
+    footer{
+        text-align: center;
+    }
+    .footer-top-banner{
+        overflow: hidden;
+    }
+    .footer-logo{
+        display: inline-block;
+    }
+    .footer-top-banner img{
+        height: 300px;
+        width: auto;
+    }
+    .footer-top-banner .footer-banner-curve{
+        top: -8px;
+    }
+    .top-footer {
+        padding: 30px 0 10px;
+    }
+    .bottom-footer{
+        flex-direction: column;
+        align-items: center;
+        padding: 15px;
+    }
+    .bottom-footer .copyright-text{
+        order: 2;
+        margin-top: 10px;
+    }
+    /*footer css ends*/
+
+/*inner page css starts*/
+.masonry-banner-content{
+    bottom: inherit;
+    top: 10px;
+    display: flex;
+    height: 100%;
+    align-items: flex-end;}
+    .banner.inner-banner .banner-text h1{
+        text-transform: uppercase;
+        margin-bottom: 100px;
+    }
+    .one-side-text{
+        padding: 0;
+        margin-top: 20px;
+    }
+    .masonary-image{
+        padding: 0;
+    }
+    .image-content-row:nth-child(2n) .masonary-text{
+        order: 2;
+    }
+    .image-content-row{
+        margin-bottom: 50px;
+    }
+    .built-of-brick{
+        padding-top: 0;
+    }
+    .built-of-brick-box{
+        padding: 0;
+        padding-top: 10px;
+    }
+    .built-of-brick-box p.section-par{
+        width: 100%;
+    }
+    .built-of-brick .small-box-title-bg{
+        height: auto;
+    }
+    .built-of-brick-box .small-box-title{
+        display: flex;
+        flex-direction: column;
+        top: 0;
+    }
+    .innerpage-form{
+        margin-top: 200px;
+    }
+    .inner-banner-two-content h1{
+        text-transform: uppercase;
+        margin-bottom: 100px;
+        font-size: 24px;
+        line-height:36px;
+    }
+    .smart-financing-options .financing-options h2{
+        text-transform: inherit;
+        text-align: center;
+    }
+    .smart-financing-options .financing-options .financiang-option-part{
+        margin-bottom:15px;
+        padding-bottom: 15px; 
+        border-right: 0;
+        border-bottom: 1px solid #e7d2a1;
+    }
+    .smart-financing-options .contact-form{
+        float: none;
+        margin-top: 25px;
+        width: 100%;
+    }
+/*inner page css ends*/
+    .built-of-brick-section-box {
+        padding: 15px 0;
+    }
+    .bottom-bg {
+        display: none;
+    }
+
+    .featured-blog-box .blog-img img{
+        width: 100%;        
+    }
+    .featured-blog-box .blog-content{
+        padding: 15px;
+    }
+    .featured-blog-box .blog-content .person-name-img{
+        display: block;
+        float: none;
+        overflow: hidden;
+        margin-bottom: 15px;
+    }
+    .featured-blog-box .blog-content .view-post-btn{
+        display: block;
+        float: none;
+    }
+    .featured-blog-box .blog-content p{
+        margin-bottom: 10px;
+    }
+      
+    
+    .featured-blog-section{
+        padding-top: 0;
+    }
+    .small-banner .inner-banner-two-content {
+        top: -20px;
+    }
+    .small-banner .inner-banner-two-content h1{
+        width: 90%;
+        margin-bottom: 30px;
+    }
+    .small-banner .inner-banner-two-content p{
+        width: 90%;
+    }
+
+/* 404 page css */
+    .no-banner {
+        padding: 50px 0 100px;
+        top: 0;
+    }
+
+/* contact page css */
+    .contact-info {
+        width: 100%;
+    }
+    .contact-info a.btn-red {
+        text-align: center;
+    }
+
+/* thank-you page css */
+    .more-about {
+        padding: 25px 0 65px;
+    }
+    .more-about .section-title {
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 50px;
+        text-transform: uppercase;
+    }
+    .more-about .service-small-box {
+        margin: 0 5px 30px;
+    }
+    .more-about .small-box-button {
+        bottom: -55px;
+    }
+
+    .contact-form {
+        width: 100%;
+        float: none;
+    }
+    .ins-page-content h2 {
+        text-align: center;
+    }
+
+    .side-social-link {
+        margin-top: 25px;
+        width: 100%;
+        float: none;
+    }
+    .customer-story-content .side-social-link .social-icon {
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+    .team-individual-sidebar {
+        width: 100%;
+        float: none;
+    }
+
+    .customer-stories .card-custom {
+        margin-bottom: 30px;
+    }
+
+    .no-b-padding{
+        padding-bottom: 0;
+    }
+}
+
+
+@media(min-width:768px) and (max-width:991px){
+    .owl-carousel .owl-item.active .card-custom{
+        width: 100%;
+    }
+    .owl-carousel .owl-item.active + .owl-item{
+        left: 0;
+    }
+    .owl-carousel .owl-nav{
+        display: block;
+    }
+    .about-bone-dry{
+        padding-top: 0;
+    }
+    .bottom-footer {
+         flex-direction: row; 
+         align-items: center; 
+        }
+        .bottom-footer .copyright-text{
+            order: 1;
+        }
+        .banner.inner-banner .banner-text h1{
+            margin-bottom: 0;
+        }
+        .image-content-row:nth-child(2n) .masonary-text{
+            order: 1;
+        }
+        .one-side-text{
+            padding: 0 20px;
+            
+        }
+        .smart-financing-options .financing-options .financiang-option-part{
+            margin-bottom:30px;
+            padding-bottom: 15px; 
+            border-right: 0;
+            border-right: 1px solid #e7d2a1;
+            border-bottom:0;
+        }
+/*bone-dry-locations css starts*/
+    .Location-banner-content {
+        top: 45px;
+    }
+    .Location-banner-content .small-box-learn {
+        bottom: 2px;
+    }
+    .service-areas-location {
+        margin-top: 300px;
+        padding: 340px 0 10px;
+    }
+    .area-location-content {
+        padding: 20px 20px 20px 20px;
+    }
+/*bone-dry-locations css ends*/
+/*bone-dry-locations-1 css starts*/
+    .section-title {
+        margin-bottom: 40px;
+    }
+    .area-location-content-first {
+        padding: 20px 0 0px;
+    }
+/*bone-dry-locations-1 css ends*/
+/*bone-dry-locations-2 css starts*/
+    .second-page-loacation {
+        padding-top: 35px;
+        margin-top: 0;
+    }
+    .Location-box-content .small-box-learn {
+        bottom: 3px;
+    }
+
+/*bone-dry-locations-2 css ends*/
+/*job-opportunities css starts*/
+    .jop-apply-section .built-of-brick-box {
+        padding-bottom: 160px;
+    }
+/*job-opportunities css ends*/
+/*featured-blog-post css starts*/
+    .blog-banner-img {
+        height: 395px;
+    }
+    .blog-banner-content {
+        top: 65px;
+    }
+    .featured-blog-section {
+        padding: 80px 0 120px;
+    }
+    .featured-blog-sidebar {
+        width: 100%;
+    }
+    .featured-blog-box .blog-content {
+        padding: 8px 15px;
+    }
+    .featured-blog-box .blog-content h3 {
+        font-size: 14px;
+        margin-top: 0px;
+        margin-bottom: 8px;
+    }
+    .featured-blog-box .blog-content p {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+/*featured-blog-post css ends*/
+
+    .jop-apply-section .more-blogs {
+        padding-bottom: 95px;
+    }
+
+    p.section-par {
+        width: 85%;
+    }
+
+    #slide-partners .owl-next span {
+        font-size: 75px;
+        right: -30px;
+        top: 5%;
+    }
+    #slide-partners .owl-prev span {
+        font-size: 75px;
+        position: absolute;
+        left: -30px;
+        top: 5%;
+    }
+}
+
+@media(min-width:991px){
+    
+    .dropdown:hover>.dropdown-menu {
+        display: block;
+      }    
+      .banner .card-custom {
+          max-width: 400px;
+      }
+
+}
+@media(min-width:992px) and (max-width:1280px){
+    .btn-red{
+        padding: 12px 20px;
+    }
+
+    /*header css starts*/
+    .header-main{
+        position: inherit;
+    }
+    .main-navigation .navbar-nav.ml-auto>li{
+        margin-left: 35px;
+    }
+    /*header css ends*/
+    /*banner css starts*/
+    .banner .banner-text h1{
+        font-size: 36px;
+        line-height: 46px;
+    }
+    header .outer-container{
+        padding: 0 15px;
+    }
+    .outer-container{
+        padding: 0 15px;
+    }
+    .banner-arrow{
+        bottom: 50px;
+    }
+    .cardslider__direction-nav {
+     
+        right: 55px;
+        bottom: 60px;
+    }
+/*banner css ends*/
+
+/*service css starts*/
+    .service-big-text{
+        padding: 15px;
+        top: 20px;
+    }
+    .service-big-text p{
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .service-small-box h2{
+        font-size: 16px;
+    }
+    .home-solution-content{
+        padding: 15px;
+    }
+/*service css ends*/
+
+/*indy services css starts*/
+    .masonry-banner-content {
+        top: 70px;
+    }
+/*indy services css ends*/
+
+/*bone-dry-locations css starts*/
+    .blog-banner-img {
+        height: 425px;
+    }
+    .Location-banner-content {
+        top: 65px;
+    }
+    .service-areas-location {
+        padding:65px 0 10px;
+    }
+/*bone-dry-locations css ends*/
+/*bone-dry-locations-1 css starts*/
+.area-location-content-first {
+    padding: 25px 0 0px;
+}
+.area-location-content-first img {
+    margin-bottom: 5px;
+}
+.area-location-content-first p {
+    margin-bottom: 10px;
+}
+.location-content-form {
+    padding: 5px 18px 10px;
+}
+/*bone-dry-locations-1 css ends*/
+/*featured-blog-post css starts*/
+    .blog-banner-content {
+        top: 95px;
+    }
+    .featured-blog-box .blog-content {
+        padding: 15px 30px 15px;
+    }
+    .featured-blog-box .blog-content h3 {
+        font-size: 16px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .featured-blog-box .blog-content p {
+        line-height: 20px;
+        margin-bottom: 10px;
+    }
+
+/*featured-blog-post css ends*/
+    .small-banner .inner-banner-two-content {
+        top: -20px;
+    }
+
+/* 404.html page css */
+    .no-banner {
+        padding: 70px 0 120px;
+        top: 0;
+    }
+
+    .contact-info a.btn-red {
+        text-align: center;
+    }
+
+    .side-social-link {
+        width: 92%;
+    }
+
+    #slide-partners .owl-prev span{
+        font-size: 90px;
+        left: -40px;
+        top: 0%;
+    }
+    #slide-partners .owl-next span{
+        font-size: 90px;
+        right: -40px;
+        top: 0%;
+    }
+    .partner-box h3 {
+        top: 51px;
+    }
+
+    .customer-stories .card-custom {
+        min-height: 216px;
+        padding: 15px;
+    }
+    .customer-stories .card-custom h3 {
+        margin-top: 15px;
+    }
+
+    .no-b-padding{
+        padding-bottom: 0;
+    }
+}

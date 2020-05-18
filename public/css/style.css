@@ -1,0 +1,233 @@
+/*default css starts*/
+* {
+    outline: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: #231f20;
+    font-size: 14px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+input:focus
+button:focus,
+a:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.dashboard-menu{
+    background: rgb(43,0,173);
+    background: linear-gradient(90deg, rgba(43,0,173,1) 0%, rgba(29,48,253,1) 48%, rgba(8,95,179,1) 100%);
+    padding: 20px 100px;
+}
+.dashboard-menu ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.dashboard-menu ul li{
+    display: inline-block;
+    margin-right: 45px;
+}
+.dashboard-menu ul li a{
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+    font-weight: 600;
+}
+.dashboard-section{
+    padding: 80px 100px;
+}
+.dashboard-buttons ul{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    /* justify-content: center; */
+}
+.dashboard-buttons ul li{
+    display: inline-block;
+    flex: 32% 0 0;
+    margin: 12px;
+}
+.dashboard-buttons ul li a{
+    width: 100%;
+    overflow: hidden;
+    height: 180px;
+    display: flex;
+    box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.1);
+    border-radius: 12px;
+    text-align: center;
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.dashboard-buttons ul li a:hover{
+    background-color: #f7f7f7;
+}
+.dashboard-buttons ul li a span{
+    width: 75px;
+    height: 75px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+.dashboard-buttons ul li a p{
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 0;
+    font-weight: 700;
+    color: #0c56c1;
+    text-transform: capitalize;
+}
+/* Orders page */
+.page-inner-info{
+    padding: 80px 100px;
+}
+.order-list-options{
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;
+}
+.order-list-options label{
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    font-weight: 700;
+}
+.order-list-options label input,
+.order-list-options label select{
+   margin: 0 12px;
+}
+.order-list-options label input:focus,
+.order-list-options label select:focus{
+    outline: none;
+    box-shadow: none;
+}
+.order-list-pagination{
+    margin-top: 30px;
+}
+.order-list-pagination .pagination .page-item .page-link{
+    font-weight: 600;
+}
+.order-list-pagination .pagination .page-item.active .page-link{
+    background: rgb(43,0,173);
+    background: linear-gradient(90deg, rgba(43,0,173,1) 0%, rgba(29,48,253,1) 48%, rgba(8,95,179,1) 100%);
+    font-weight: 700;
+}
+
+
+.new-add-list{
+    margin-bottom: 35px;
+    padding-bottom: 35px;
+    border-bottom: 1px solid #eee;
+}
+.new-add-list button{
+    background: rgb(43,0,173);
+    background: linear-gradient(90deg, rgba(43,0,173,1) 0%, rgba(29,48,253,1) 48%, rgba(8,95,179,1) 100%);
+    font-weight: 700;
+}
+.new-add-list .modal-header button{
+    background: transparent;
+}
+.new-add-list .modal-body button{
+    width: 100%;
+}
+.list-column{
+    box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.1);
+    border-radius: 12px;
+    padding: 40px;
+    margin-bottom: 30px;
+}
+.list-column ul{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+.list-column ul li{
+    font-size: 16px;
+    line-height: 24px;
+    color: #000;
+    margin-bottom: 5px;
+}
+.list-column ul li strong{
+    color: #0c56c1;
+    width: 120px;
+    display: inline-block;
+    position: relative;
+    margin-right: 5px;
+}
+.list-column ul li strong:after{
+    content: ":";
+    color: #0c56c1;
+    position: absolute;
+    right: 0;
+}
+
+/* Email Tamplate */
+.email-description{
+    background-color: #eee;
+    padding: 40px;
+}
+.email-description .description-column{
+    margin-bottom: 30px;
+}
+.email-description .description-column h5{
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 700;
+    color: #0c56c1;
+    margin-bottom: 5px;
+}
+.email-description .description-column p{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 0;
+}
+.email-form h3{
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 700;
+    color: #0c56c1;
+    margin-bottom: 5px;
+}
+.email-form h4{
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 30px;
+}
+.email-form fieldset{
+    margin-bottom: 20px;
+}
+.email-form fieldset input,
+.email-form fieldset textarea{
+    width: 100%;
+    padding: 10px 15px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+.email-form fieldset textarea{
+    height: 150px;
+}
+.email-form button{
+    padding: 12px 40px;
+    border-radius: 4px;
+    border: none;
+    background: rgb(43,0,173);
+    background: linear-gradient(90deg, rgba(43,0,173,1) 0%, rgba(29,48,253,1) 48%, rgba(8,95,179,1) 100%);
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+}
