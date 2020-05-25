@@ -78,7 +78,7 @@
                 success: function(data){
                     var html = '';
                      if (data.success) {
-                        html = '<div class="alert alert-success">' +'<h6>' + data.success + '<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>' + '</sh6>' +'</div>';
+                        html = '<div class="alert alert-success">' +'<h6>' + data.success + '<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>' + '</h6>' +'</div>';
                      }
                     $('#contact').trigger("reset");
                     $('#form_result').html(html);
