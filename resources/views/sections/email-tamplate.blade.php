@@ -2,9 +2,6 @@
 
 @section('title','Email-templates')
 @section('content')
-<script>
-  
-</script>
 <div class="page-inner-info">
     <div class="container-fluid">
         <div class="email-tamplate">
@@ -32,16 +29,11 @@
                     </div>
                 </div>
                 <div class="col-md-8">
-                    <!-- <form id="contact" action="{!! route('template-store') !!}" method="post" class="email-form"> -->
-                    {!!Former::horizontal_open()->method('post')->action( route('template-store'))->class('email-form')->id('contact') !!}
-
+                  <form id="contact" class="email-form"> 
+                        @csrf
                         <h3>Email Tamplate form</h3>
                         <h4>Contact us today, and get reply with in 24 hours!</h4>
-                        @if(session('success'))
-                          <div class="alert alert-success">
-                            <h6>{{ session('success') }}<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a></h6>
-                          </div>
-                        @endif
+                        <span id="form_result"></span>
                       <fieldset>
                           <input placeholder="Your name" type="text" name="from" 
                           id="from" tabindex="1" autofocus required>
@@ -65,10 +57,34 @@
                       <fieldset>
                           <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
                       </fieldset><br>
-                  {!!Former::close()!!}
-              </div>
+                  </form>
+                </div>
           </div>
       </div>
   </div>
 </div>
+<script src="{{ asset('js/jquery-3.5.1.js') }} "></script>
+<script type="text/javascript">
+
+    $(document).ready(function() {
+        $('#contact').on('submit', function(event) {
+            event.preventDefault();
+
+            $.ajax({
+                type: "POST",
+                url: "{{ route('template-store') }}",
+                dataType: "json",
+                data: $("#contact").serialize(),
+                success: function(data){
+                    var html = '';
+                     if (data.success) {
+                        html = '<div class="alert alert-success">' +'<h6>' + data.success + '<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>' + '</sh6>' +'</div>';
+                     }
+                    $('#contact').trigger("reset");
+                    $('#form_result').html(html);
+                }
+            });
+        });
+    });
+</script>
 @endsection
