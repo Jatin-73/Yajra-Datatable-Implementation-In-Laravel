@@ -26,13 +26,16 @@ class FrontController extends Controller
 
 	public function storetamplate(Request $request)
 	{
-		DB::table('email_templates')->insert([
+		$data = DB::table('email_templates')->insert([
 			'from'			=>  $request->input('from'),
 			'email'			=>  $request->input('email'),
 			'phone'			=>  $request->input('phone'),
 			'subject'		=>  $request->input('subject'),
 			'email_content' =>  $request->input('email_content')
 		]);
-	return redirect('email-tamplate')->with('success', 'Thank you for contacting us.');
+
+		if($data){
+            return response()->json(['success'=> 'Thank you for contacting us.']);
+		}
 	}
 }
